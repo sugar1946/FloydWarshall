@@ -1,0 +1,8 @@
+How to compile:
+javac -classpath ~/shortestpath/trunk/src *.java
+
+How to run: program now takes one argument, which is the input file
+
+java -classpath ~/shortestpath/trunk/src org.cisc475.shortestpath.seq.FloydWarshall ~/shortestpath/trunk/test/Test.txt
+
+Output is sent to stdout.
